@@ -1,5 +1,5 @@
 baseURL = "https://13ablo.github.io/my-devops-blog/"
-title = "My DevOps Journey"
+title = "Genome"
 theme = "archie"
 languageCode = "en-us"
 paginate = 5
