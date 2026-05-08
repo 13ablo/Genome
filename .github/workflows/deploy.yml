@@ -9,21 +9,27 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           submodules: true   # fetch themes
           fetch-depth: 0     # full history
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          extended: true
+      - name: Install Hugo
+        run: |
+          HUGO_VERSION=0.160.1
+          curl -L -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
+          tar xzf hugo.tar.gz
+          chmod +x hugo
+          sudo mv hugo /usr/local/bin/hugo
+          hugo version
 
       - name: Build
         run: hugo --minify
