@@ -1,5 +1,5 @@
 ---
-title: "Comment j'ai créé ce blog avec Hugo et Congo"
+title: "Comment j'ai créé ce blog avec Hugo, Congo et github actions"
 date: 2026-05-08
 draft: false
 tags: ["hugo", "congo", "github-pages", "blog"]
