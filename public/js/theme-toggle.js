@@ -1,3 +1,4 @@
+// still does not work
 function setTheme(mode) {
   localStorage.setItem("theme-storage", mode);
   var darkModeStyle = document.getElementById("darkModeStyle");

@@ -26,6 +26,15 @@
   weight = 30
 
 [[main]]
+  identifier = "appearance"
+  name = "Theme"
+  weight = 98
+  [main.params]
+    action = "appearance"
+    icon = "moon"
+    showName = false
+
+[[main]]
   identifier = "search"
   weight = 99
   [main.params]
