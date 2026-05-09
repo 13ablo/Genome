@@ -2,10 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Genome</title>
-    <link>http://localhost:1313/my-devops-blog/tags/</link>
+    <link>http://localhost:1313/Genome/tags/</link>
     <description>Recent content in Tags on Genome</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/my-devops-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/Genome/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/Genome/tags/blog/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Genome/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Congo</title>
+      <link>http://localhost:1313/Genome/tags/congo/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Genome/tags/congo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github-Pages</title>
+      <link>http://localhost:1313/Genome/tags/github-pages/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Genome/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/Genome/tags/hugo/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Genome/tags/hugo/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
