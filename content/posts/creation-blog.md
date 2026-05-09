@@ -41,7 +41,7 @@ Le thème Congo avait quelques incompatibilités avec les versions récentes de 
 
 Maintenant, je peux simplement créer des fichiers Markdown dans le dossier `content/posts/`, les ajouter à Git, et le site est automatiquement mis à jour. C'est exactement ce que je voulais !
 
-Le blog est maintenant en ligne sur GitHub Pages et prêt pour mes pensées sur DevOps.
+Le blog est maintenant en ligne sur GitHub Pages et prêt à accueillir du contenu.
 
 ---
 

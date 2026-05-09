@@ -6,7 +6,7 @@ paginate = 5
 
 [params]
   mode = "auto"              # auto dark/light mode
-  subtitle = "DevOps thoughts, day by day"
+  subtitle = "Bienvenue dans mon aventure DevOps"
   useCDN = false             # serve assets locally
   mathjax = false            # turn on if needed
   katex = false
