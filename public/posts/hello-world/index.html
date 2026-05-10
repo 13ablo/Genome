@@ -117,7 +117,7 @@
     "keywords": ["DevOps","Premier article"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "429"
+    "wordCount": "425"
   }
   </script>
     
@@ -340,7 +340,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-01-01 00:00:00 &#43;0000 UTC">January 1, 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+      <time datetime="2024-01-01 00:00:00 &#43;0000 UTC">January 1, 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
 
     
@@ -417,23 +417,55 @@
     </header>
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 lg:sticky lg:top-10 print:hidden">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    Table of Contents
+  </summary>
+  <div class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#une-infrastructure-cest-un-organisme-vivant">Une infrastructure, c&rsquo;est un organisme vivant</a></li>
+    <li><a href="#ce-que-vous-trouverez-ici">Ce que vous trouverez ici</a></li>
+    <li><a href="#mon-stack-de-départ">Mon stack de départ</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        <p>a
-Il y a quelques semaines, je cherchais un nom pour ce blog. Pas un acronyme DevOps de plus, pas un nom en <em>-ops</em> ou <em>-flow</em>. Quelque chose qui veuille dire quelque chose.</p>
+        <div class="lead !mb-9 text-xl">
+  Il y a quelques semaines, je cherchais un nom pour ce blog. Pas un acronyme DevOps de plus, pas un nom en <em>-ops</em> ou <em>-flow</em>. Quelque chose qui veuille dire quelque chose.
+</div>
+
 <p>J&rsquo;étais en train de déboguer un pipeline cassé — un de ces moments où l&rsquo;on remonte la chaîne des dépendances, un fichier de config après l&rsquo;autre, un layer Docker après l&rsquo;autre — quand l&rsquo;image s&rsquo;est imposée d&rsquo;elle-même.</p>
-<p><strong>PS :</strong> Ne vous inquiétez pas si vous ne comprenez pas la phrase ci-dessus ⬆️<br>
-C&rsquo;est un projet ouvert à toutes et à tous, et je ferai le maximum pour vulgariser mes propos afin que chaque profil puisse trouver un intérêt à la lecture de mes articles.</p>
-<p>Bref ou en étais-je ? ah oui &hellip;</p>
-<p><strong>Une infrastructure, c&rsquo;est un organisme vivant.</strong></p>
-<p>Pas une métaphore de façade. Une vraie réalité opérationnelle : chaque service est une cellule, chaque réseau un système nerveux, chaque pipeline un mécanisme d&rsquo;expression. Et au cœur de tout ça, il y a un <strong>génome</strong> — l&rsquo;ensemble du code, des manifests, des variables d&rsquo;environnement, des scripts qui définissent <em>ce que l&rsquo;infrastructure est censée être</em>.</p>
+
+
+<div class="border-l-4 rounded-r-xl px-5 py-4 my-6 border-teal-400 bg-teal-50 dark:bg-teal-950 dark:border-teal-700">
+  <strong>PS :</strong> Ne vous inquiétez pas si vous ne comprenez pas la phrase ci-dessus ⬆️
+C&rsquo;est un projet ouvert à toutes et à tous, et je ferai le maximum pour vulgariser mes propos afin que chaque profil puisse trouver un intérêt à la lecture de mes articles.
+</div>
+<p>Bref, où en étais-je ? Ah oui&hellip;</p>
+
+<h2 id="une-infrastructure-cest-un-organisme-vivant" class="relative group">Une infrastructure, c&rsquo;est un organisme vivant <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#une-infrastructure-cest-un-organisme-vivant" aria-label="Anchor">#</a></span></h2>
+
+<div class="border-l-4 rounded-r-xl px-5 py-4 my-6 border-purple-400 bg-purple-50 dark:bg-purple-950 dark:border-purple-700">
+  Pas une métaphore de façade. Une vraie réalité opérationnelle : chaque service est une cellule, chaque réseau un système nerveux, chaque pipeline un mécanisme d&rsquo;expression. Et au cœur de tout ça, il y a un <strong>génome</strong> — l&rsquo;ensemble du code, des manifests, des variables d&rsquo;environnement, des scripts qui définissent <em>ce que l&rsquo;infrastructure est censée être</em>.
+</div>
 <p>Quand quelque chose casse, on ne cherche pas juste un log. On cherche une mutation. Une dérive. Un endroit où ce qui a été déployé ne correspond plus à ce qui était écrit.</p>
 <blockquote>
 <p>« Le génome, c&rsquo;est l&rsquo;intention. Le phénotype, c&rsquo;est ce qui tourne en prod. »</p>
 </blockquote>
 <p>Le DevOps, c&rsquo;est l&rsquo;art de maintenir ces deux choses alignées.</p>
 <p><strong>Genome</strong>, c&rsquo;est donc ça : un espace pour documenter le code génétique d&rsquo;une infrastructure — ses patterns, ses mutations, ses évolutions. Chaque article sera une séquence de plus dans cette cartographie.</p>
-<hr>
-<h2 id="ce-que-vous-trouverez-ici" class="relative group">Ce que vous trouverez ici <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#ce-que-vous-trouverez-ici" aria-label="Anchor">#</a></span></h2><h2 id="hahahugoshortcode9s0hbhb" class="relative group"><div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin:1.5rem 0;">
+
+<h2 id="ce-que-vous-trouverez-ici" class="relative group">Ce que vous trouverez ici <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#ce-que-vous-trouverez-ici" aria-label="Anchor">#</a></span></h2><div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin:1.5rem 0;">
   
   <div style="border:0.5px solid #e5e7eb; border-radius:10px; padding:14px 16px; background:var(--color-background,#fff);">
   <div style="margin-bottom:8px; width:24px; height:24px;">
@@ -495,18 +527,25 @@ C&rsquo;est un projet ouvert à toutes et à tous, et je ferai le maximum pour v
   </p>
 </div>
 
-</div> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#hahahugoshortcode9s0hbhb" aria-label="Anchor">#</a></span></h2><h2 id="mon-stack-de-départ" class="relative group">Mon stack de départ <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#mon-stack-de-d%c3%a9part" aria-label="Anchor">#</a></span></h2><p>Pour vous donner une idée de l&rsquo;écosystème dans lequel j&rsquo;évolue :</p>
+</div>
+
+<h2 id="mon-stack-de-départ" class="relative group">Mon stack de départ <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#mon-stack-de-d%c3%a9part" aria-label="Anchor">#</a></span></h2>
+
+<div class="border-l-4 rounded-r-xl px-5 py-4 my-6 border-blue-400 bg-blue-50 dark:bg-blue-950 dark:border-blue-700">
+  <p>Pour vous donner une idée de l&rsquo;écosystème dans lequel j&rsquo;évolue :</p>
 <ul>
-<li>Cloud → AWS</li>
-<li>IaC → Terraform + Ansible</li>
-<li>CI/CD → GitHub Actions / GitLab CI</li>
-<li>Conteneurs → Docker + Kubernetes (ECS / K8S cluster / Rancher)</li>
-<li>Observabilité →  Splunk / Prometheus + Grafana / Selfmade observability tooling</li>
+<li><strong>Cloud</strong> → AWS</li>
+<li><strong>IaC</strong> → Terraform + Ansible</li>
+<li><strong>CI/CD</strong> → GitHub Actions / GitLab CI</li>
+<li><strong>Conteneurs</strong> → Docker + Kubernetes (ECS / K8S cluster / Rancher)</li>
+<li><strong>Observabilité</strong> → Splunk / Prometheus + Grafana / Selfmade observability tooling</li>
 </ul>
-<hr>
-<p>Ce blog ne sera pas un cours magistral. Ce sera un <strong>carnet de bord</strong> — avec ses doutes, ses erreurs, ses eurêka. Mon objectif est simple : montrer que le DevOps est un métier <strong>humain, accessible et passionnant</strong>, bien au-delà des buzzwords.</p>
-<p>Le génome évolue. Rendez-vous au prochain commit.</p>
-<hr>
+</div>
+
+<div class="lead !mb-9 text-xl">
+  Ce blog ne sera pas un cours magistral. Ce sera un <strong>carnet de bord</strong> — avec ses doutes, ses erreurs, ses eurêka. Mon objectif est simple : montrer que le DevOps est un métier <strong>humain, accessible et passionnant</strong>, Le génome évolue. Rendez-vous au prochain commit.
+</div>
+
 <p><em>DevOps Engineer — en apprentissage permanent</em></p>
 
       </div>
