@@ -1,0 +1,7 @@
+<div style="border:0.5px solid #e5e7eb; border-radius:10px; padding:14px 16px; background:var(--color-background,#fff);">
+  <div style="margin-bottom:8px; width:24px; height:24px;">
+    {{ partial "icon.html" (.Get "icon") }}
+  </div>
+  <p style="font-weight:500; font-size:13px; margin:0 0 3px; color:inherit;">{{ .Get "label" }}</p>
+  <p style="font-size:11px; color:#6b7280; margin:0; line-height:1.4;">{{ .Inner }}</p>
+</div>
