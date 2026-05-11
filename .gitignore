@@ -8,11 +8,11 @@ resources/
 # Go modules (si vous utilisez Hugo modules)
 _vendor/
 vendor/
-go.sum         # ← Parfois généré automatiquement
+go.sum
 
 # Node.js (si vous utilisez npm/yarn pour assets)
 node_modules/
-package-lock.json  # ← Controverse, mais souvent exclu
+package-lock.json
 
 # Cache et temporaires
 .cache/
