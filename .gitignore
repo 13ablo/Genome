@@ -40,3 +40,6 @@ Thumbs.db
 # Environnement local
 .env
 .env.local
+
+#Personal objects
+pictures/
