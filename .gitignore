@@ -1,14 +1,42 @@
-# Hugo build output
+# Hugo build outputs
 public/
 resources/
-
-# Go modules
-_vendor/
-vendor/
 
 # Hugo cache
 .hugo_build.lock
 
-# OS files
+# Go modules (si vous utilisez Hugo modules)
+_vendor/
+vendor/
+go.sum         # ← Parfois généré automatiquement
+
+# Node.js (si vous utilisez npm/yarn pour assets)
+node_modules/
+package-lock.json  # ← Controverse, mais souvent exclu
+
+# Cache et temporaires
+.cache/
+tmp/
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+
+# Logs
+*.log
+
+# Environnement local
+.env
+.env.local
