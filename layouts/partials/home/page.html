@@ -1,0 +1,20 @@
+<article class="prose max-w-full dark:prose-invert">
+  {{ with .Title }}
+    <header>
+      <h1>{{ . | emojify }}</h1>
+    </header>
+  {{ end }}
+  {{- $images := .Resources.ByType "image" }}
+  {{- $cover := $images.GetMatch (.Params.cover | default "*cover*") }}
+  {{ with $cover }}
+    <div class="mb-8">
+      {{ $webp := $.Site.Params.enableImageWebp | default true }}
+      {{ $altText := $.Params.coverAlt | default "" }}
+      {{ partial "picture.html" (dict "img" . "alt" $altText "class" "rounded-xl w-full object-cover" "lazy" false "webp" $webp) }}
+    </div>
+  {{ end }}
+  <section>{{ .Content | emojify }}</section>
+</article>
+<section>
+  {{ partial "recent-articles.html" . }}
+</section>

@@ -1,5 +1,6 @@
 ---
 title: "Accueil"
+cover: "cover.png"
 ---
 
 {{< lead >}}
@@ -30,8 +31,10 @@ Les fondations. Interventions terrain sur des infrastructures réseau critiques,
 
 ## Laisser une trace
 
+{{< walker >}}
+
 {{< callout type="tip" >}}
-Ce qui m'a le plus manqué quand j'ai commencé, ce ne sont pas les tutoriels — il y en a des milliers. C'est le **contexte**. Pourquoi ce choix technique plutôt qu'un autre ? Qu'est-ce qui se passe vraiment quand un pipeline casse en production à 23h ? Comment on raisonne face à un problème qu'on n'a jamais vu ?
+Ce qui m'a le plus manqué quand j'ai commencé, ce ne sont pas les tutoriels — il y en a des milliers. C'est le **contexte**. Pourquoi ce choix technique plutôt qu'un autre ? Qu'est-ce qui se passe vraiment quand une pipeline casse en production à 23h ? Comment on raisonne face à un problème qu'on n'a jamais vu ?
 {{< /callout >}}
 
 Genome est né de cette frustration et de cette conviction : **chaque expérience vécue est une ressource pour ceux qui viendront après.**

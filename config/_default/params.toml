@@ -9,7 +9,7 @@ colorScheme = "congo"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
 mode = "toggle"
-customJS = ["js/theme-toggle.js"]
+customJS = ["js/theme-toggle.js", "js/animations.js"]
 customCSS = ["css/custom.css"]
 
 defaultThemeColor = "#FFFFFF"

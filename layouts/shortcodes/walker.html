@@ -1,0 +1,19 @@
+<div style="position: relative; height: 80px; overflow: hidden; margin: 2rem 0;">
+  <div style="
+    position: absolute;
+    bottom: 0;
+    animation: walk 12s linear infinite;
+    font-size: 2rem;
+    line-height: 1;
+  ">🧑‍💻</div>
+</div>
+
+<style>
+@keyframes walk {
+  0%   { left: -5%; transform: scaleX(1); }
+  49%  { left: 100%; transform: scaleX(1); }
+  50%  { left: 100%; transform: scaleX(-1); }
+  99%  { left: -5%; transform: scaleX(-1); }
+  100% { left: -5%; transform: scaleX(1); }
+}
+</style>
