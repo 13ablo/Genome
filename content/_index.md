@@ -17,7 +17,7 @@ Mon quotidien, c'est l'art de maintenir des systèmes vivants : des clusters Kub
 
 ## Les missions qui m'ont construit
 
-**Secteur hospitality — DevOps** *(2024 → aujourd'hui)*
+**Secteur hospitality — DevOps** *(2023 → aujourd'hui)*
 Au cœur d'une équipe Architecture et Release Management, je suis responsable du déploiement continu des évolutions sur un ensemble de sites commerciaux à fort trafic. Migration cloud, pipelines CI/CD, automatisation des déploiements, tooling AI/OPS — chaque semaine apporte son lot de problèmes inédits à résoudre.
 
 **Secteur défense & cybersécurité — DevOps** *(2021 → 2023)*

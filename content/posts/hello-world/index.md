@@ -31,10 +31,10 @@ links:
 Il y a quelques semaines, je cherchais un nom pour ce blog. Pas un acronyme DevOps de plus, pas un nom en *-ops* ou *-flow*. Quelque chose qui veuille dire quelque chose.
 {{< /lead >}}
 
-J'étais en train de déboguer un pipeline cassé — un de ces moments où l'on remonte la chaîne des dépendances, un fichier de config après l'autre, un layer Docker après l'autre — quand l'image s'est imposée d'elle-même.
+J'étais en train de débugger une pipeline cassée — un de ces moments où l'on remonte la chaîne des dépendances, un fichier de config après l'autre, un layer Docker après l'autre — quand l'image s'est imposée d'elle-même.
 
 {{< callout type="tip" >}}
-**PS :** Ne vous inquiétez pas si vous ne comprenez pas la phrase ci-dessus ⬆️
+**PS :** Ne vous inquiétez pas si vous ne comprenez pas les phrase ci-dessus ⬆️
 C'est un projet ouvert à toutes et à tous, et je ferai le maximum pour vulgariser mes propos afin que chaque profil puisse trouver un intérêt à la lecture de mes articles.
 {{< /callout >}}
 
@@ -94,7 +94,7 @@ Mais au delà de ces sujets nous retraçerons ensemble l'histoire de ce mouvemen
 ## Mes outils de prédilection
 
 {{< callout type="info" >}}
-Pour vous donner une idée de l'écosystème dans lequel j'ai eu à ebvolué jusque là :
+Pour vous donner une idée de l'écosystème dans lequel j'ai eu à evoluer jusque là :
 
 - **Cloud** → AWS
   - **Cloud Ressources** → ECS, Cloudwatch, Lambda, S3, IAM, Cloudfront, WAF, EKS, Systems manager,...
