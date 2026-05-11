@@ -10,17 +10,18 @@ defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
 mode = "toggle"
 customJS = ["js/theme-toggle.js"]
+customCSS = ["css/custom.css"]
 
 defaultThemeColor = "#FFFFFF"
 
-enableSearch = false
+enableSearch = true
 enableCodeCopy = false
 enableImageLazyLoading = true
 enableImageWebp = true
 
 # robots = ""
 fingerprintAlgorithm = "sha256"
-
+ 
 [author]
   name = "13ablo"
 

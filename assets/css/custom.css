@@ -1,0 +1,64 @@
+/* Glossaire */
+.genome-glossary-title {
+  font-family: monospace;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #7c3aed; /* ← violet */
+  margin-bottom: 1rem;
+}
+
+.genome-links-title {
+  font-family: monospace;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #7c3aed; /* ← violet */
+  margin-bottom: 1rem;
+}
+
+
+.genome-glossary-entry {
+  border-left: 2px solid #e5e7eb;
+  padding-left: 0.75rem;
+}
+
+.genome-glossary-entry dt {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #7c3aed; /* ← violet */
+  margin: 0;
+}
+
+.genome-glossary-entry dd {
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin: 0.25rem 0 0 0;
+  line-height: 1.5;
+}
+
+.genome-links a {
+  font-size: 0.75rem;
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .genome-glossary-entry { border-color: #374151; }
+  .genome-glossary-entry dt { color: #e5e7eb; }
+  .genome-glossary-entry dd { color: #9ca3af; }
+}
+
+@media (prefers-color-scheme: dark) {
+  .genome-glossary-title,
+  .genome-links-title {
+    color: #a78bfa;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .genome-glossary-entry dt {
+    color: #a78bfa;
+  }
+}
