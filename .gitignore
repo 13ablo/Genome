@@ -5,12 +5,12 @@ resources/
 # Hugo cache
 .hugo_build.lock
 
-# Go modules (si vous utilisez Hugo modules)
+# Go modules
 _vendor/
 vendor/
 go.sum
 
-# Node.js (si vous utilisez npm/yarn pour assets)
+# Node.js 
 node_modules/
 package-lock.json
 
