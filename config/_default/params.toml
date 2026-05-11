@@ -10,17 +10,18 @@ defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
 mode = "toggle"
 customJS = ["js/theme-toggle.js"]
+customCSS = ["css/custom.css"]
 
 defaultThemeColor = "#FFFFFF"
 
-enableSearch = false
+enableSearch = true
 enableCodeCopy = false
 enableImageLazyLoading = true
 enableImageWebp = true
 
 # robots = ""
 fingerprintAlgorithm = "sha256"
-
+ 
 [author]
   name = "13ablo"
 
@@ -33,7 +34,7 @@ fingerprintAlgorithm = "sha256"
 [footer]
   showCopyright = true
   showThemeAttribution = true
-  showAppearanceSwitcher = false
+  showAppearanceSwitcher = true
   showScrollToTop = true
 
 [homepage]
@@ -54,7 +55,7 @@ fingerprintAlgorithm = "sha256"
   showPagination = true
   invertPagination = false
   showReadingTime = true
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = false
   showWordCount = false
   showComments = false

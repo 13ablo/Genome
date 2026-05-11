@@ -1,0 +1,42 @@
+# Hugo build outputs
+public/
+resources/
+
+# Hugo cache
+.hugo_build.lock
+
+# Go modules
+_vendor/
+vendor/
+go.sum
+
+# Node.js 
+node_modules/
+package-lock.json
+
+# Cache et temporaires
+.cache/
+tmp/
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Environnement local
+.env
+.env.local

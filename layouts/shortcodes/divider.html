@@ -1,0 +1,6 @@
+{{ $label := .Get "label" | default "" }}
+<div class="flex items-center gap-4 my-8 text-neutral-400 dark:text-neutral-600">
+  <div class="flex-1 h-px bg-neutral-200 dark:bg-neutral-700"></div>
+  {{ if $label }}<span class="text-xs font-mono uppercase tracking-widest">{{ $label }}</span>{{ end }}
+  <div class="flex-1 h-px bg-neutral-200 dark:bg-neutral-700"></div>
+</div>
